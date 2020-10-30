@@ -1,0 +1,19 @@
+{
+  "name": "elasticsearch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/silvertechguy/elasticsearch",
+  "author": "Ali Fadda",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "elasticsearch": "^16.7.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
